@@ -11,6 +11,7 @@ video {
 .App {
     background-color: rgba(255, 255, 255, 0.646);
     border-radius: 7px;
+    padding: 10px;
 }
 .container {
     display: flex;
@@ -23,7 +24,7 @@ video {
     line-height: 18px;
     color: #13005A;
     margin-left: 0px;
-    border: 3px solid #F5F0BB;
+    border: 3px solid #eb465d;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 7px;
 }
@@ -56,10 +57,11 @@ h1{
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 .item-card{
-border: 2px solid #F5F0BB;
+border: 2px solid #eb465d;
 margin: 10px;
 border-radius: 7px;
 opacity: 0.8;
+padding: 7px;
 }
 .item-card:hover{
     opacity: 1;
@@ -67,6 +69,6 @@ opacity: 0.8;
 .tasty{
     border-radius: 7px;
     opacity: 1;
-    border: 2px solid #F5F0BB;
+    border: 2px solid #eb465d;
     padding: 2px;
 }

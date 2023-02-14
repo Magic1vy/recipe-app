@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import video from "./food.mp4";
+import video from "./bg.mp4";
 import search from './search.png';
 import './App.css';
 import MyRecipesComponent from './MyRecipesComponent';
