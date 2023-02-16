@@ -46,8 +46,8 @@ function App() {
 <div className='container'> 
 <form onSubmit={finalSearch}>
   <input className='search' placeholder='Search...' onChange={myRecipeSearch} value={mySearch} />
+  <button><img src={search} className="icons" alt="icon"/> </button>
 </form>
-  <button onClick={finalSearch}><img src={search} className="icons" alt="icon"/> </button>
 </div>
 <div>
   {myRecipe.map( (item, index) => (
